@@ -1,24 +1,41 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import NavBar from "./components/NavBar";
+import Wrapper from "./components/Wrapper";
+import ImageCard from './components/ImageCard/index';
+import cards from "./cards.json";
 
 class App extends Component {
+
+  state = {
+    cards,
+    count: 0
+  }
+
+  handleIncrement = () => {
+    this.setState({ count: this.state.count + 1 });
+  };
+
+  handleReset = () => {
+    this.setState({ count: 0 });
+  };
+
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <>
+            <NavBar />
+            <Wrapper>
+              {this.state.cards.map(card => (
+                <ImageCard
+                  image={card.image}
+                  key={card.id}
+                  id={card.id}
+                  onClick={this.handleIncrement}
+                />
+              ))}
+            </Wrapper>
+          </>
         </header>
       </div>
     );
