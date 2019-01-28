@@ -1,15 +1,18 @@
+.img-fluid,
+.img-container,
+img {
+  height: 150px;
+  padding: 0;
+  width: 150px;
+}
+
 .img-fluid {
   background: #fff;
   border-radius: 2px;
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
-  height: 150px;
-  margin: 1rem;
   overflow: hidden;
-  position: relative;
-  width: 150px;
 }
 
-.wrapper {
-  margin-left: 6rem;
-  margin-top: 6rem;
+.img-fluid:hover {
+  opacity: 0.5;
 }

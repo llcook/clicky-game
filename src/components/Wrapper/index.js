@@ -1,8 +1,9 @@
 import React from "react";
+import "./style.css"
 
 const Wrapper = (props) => {
     return (
-        <div className="wrapper">{props.children}</div>
+        <div className="container-fluid">{props.children}</div>
     )
 };
 

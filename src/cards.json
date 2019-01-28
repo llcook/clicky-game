@@ -1,63 +1,82 @@
 [
     {
         "id": 1,
-        "name": "'Green Wheat Fields, Auvers', by Vincent Van Gogh",
-        "image": "https://images.nga.gov/?service=asset&action=show_preview&asset=149138"
+        "name": "003366",
+        "image": "https://dummyimage.com/200x200/003366/fff&text=+"
     },
     {
         "id": 2,
-        "name": "'The Japanese Footbridge', by Claude Monet",
-        "image": "https://images.nga.gov/?service=asset&action=show_preview&asset=149269"
+        "name": "3366ff",
+        "image": "https://dummyimage.com/200x200/3366ff/fff&text=+"
     },
     {
         "id": 3,
-        "name": "'At the Water's Edge', by Paul Cézanne",
-        "image": "https://images.nga.gov/?service=asset&action=show_preview&asset=149273"
+        "name": "00ccff",
+        "image": "https://dummyimage.com/200x200/00ccff/fff&text=+"
     },
     {
         "id": 4,
-        "name": "'Seascape at Port-en-Bessin, Normandy,' by Georges Seurat",
-        "image": "https://images.nga.gov/?service=asset&action=show_preview&asset=149629"
+        "name": "006666",
+        "image": "https://dummyimage.com/200x200/006666/fff&text=+"
     },
     {
         "id": 5,
-        "name": "'The Black Rocks at Trouville,' by Gustave Courbet",
-        "image": "https://images.nga.gov/?service=asset&action=show_preview&asset=149304"
+        "name": "006699",
+        "image": "https://dummyimage.com/200x200/006699/fff&text=+"
     },
     {
         "id": 6,
-        "name": "'The Valley of the Seine, from the Hills of Giverny,' by Theodore Robinson",
-        "image": "https://images.nga.gov/?service=asset&action=show_preview&asset=148922"
+        "name": "0099cc",
+        "image": "https://dummyimage.com/200x200/0099cc/fff&text=+"
     },
     {
         "id": 7,
-        "name": "'Place Vintimille,' by Edouard Vuillard",
-        "image": "https://images.nga.gov/?service=asset&action=show_preview&asset=149773"
+        "name": "000099",
+        "image": "https://dummyimage.com/200x200/000099/fff&text=+"
     },
     {
         "id": 8,
-        "name": "'Calm Sea,' by Gustave Courbet",
-        "image": "https://images.nga.gov/?service=asset&action=show_preview&asset=149902"
+        "name": "33cccc",
+        "image": "https://dummyimage.com/200x200/33cccc/fff&text=+"
     },
     {
         "id": 9,
-        "name": "'Madison Square, Snow,' by Allen Tucker",
-        "image": "https://images.nga.gov/?service=asset&action=show_preview&asset=149171"
+        "name": "3399ff",
+        "image": "https://dummyimage.com/200x200/00ccff/fff&text=+"
     },
     {
         "id": 10,
-        "name": "'Mountain Landscape with Bridge,' Thomas Gainsborough",
-        "image": "https://images.nga.gov/?service=asset&action=show_preview&asset=148956"
+        "name": "009999",
+        "image": "https://dummyimage.com/200x200/009999/fff&text=+"
     },
     {
         "id": 11,
-        "name": "'Pont Neuf, Paris,' by August Renoir",
-        "image": "https://images.nga.gov/?service=asset&action=show_preview&asset=149361"
+        "name": "0000cc",
+        "image": "https://dummyimage.com/200x200/0000cc/fff&text=+"
     },
     {
         "id": 12,
-        "name": "'Haystacks in Brittany,' by Paul Gauguin",
-        "image": "https://images.nga.gov/?service=asset&action=show_preview&asset=149813"
+        "name": "3366cc",
+        "image": "https://dummyimage.com/200x200/3366cc/fff&text=+"
+    },
+    {
+        "id": 13,
+        "name": "3333cc",
+        "image": "https://dummyimage.com/200x200/3333cc/fff&text=+"
+    },
+    {
+        "id": 14,
+        "name": "66ccff",
+        "image": "https://dummyimage.com/200x200/66ccff/fff&text=+"
+    },
+    {
+        "id": 15,
+        "name": "336699",
+        "image": "https://dummyimage.com/200x200/336699/fff&text=+"
+    },
+    {
+        "id": 16,
+        "name": "000066",
+        "image": "https://dummyimage.com/200x200/000066/fff&text=+"
     }
-
 ]

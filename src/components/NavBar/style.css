@@ -1,0 +1,4 @@
+.navbar-nav>li {
+    display: inline;
+    margin-right: 3rem;
+}
