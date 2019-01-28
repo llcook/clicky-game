@@ -2,81 +2,109 @@
     {
         "id": 1,
         "name": "003366",
-        "image": "https://dummyimage.com/200x200/003366/fff&text=+"
+        "image": "https://dummyimage.com/200x200/003366/fff&text=+",
+        "isClicked": false
     },
     {
         "id": 2,
         "name": "3366ff",
-        "image": "https://dummyimage.com/200x200/3366ff/fff&text=+"
+        "image": "https://dummyimage.com/200x200/3366ff/fff&text=+",
+        "isClicked": false
     },
     {
         "id": 3,
-        "name": "00ccff",
-        "image": "https://dummyimage.com/200x200/00ccff/fff&text=+"
+        "name": "a791ff",
+        "image": "https://dummyimage.com/200x200/a791ff/fff&text=+",
+        "isClicked": false
     },
     {
         "id": 4,
         "name": "006666",
-        "image": "https://dummyimage.com/200x200/006666/fff&text=+"
+        "image": "https://dummyimage.com/200x200/006666/fff&text=+",
+        "isClicked": false
     },
     {
         "id": 5,
         "name": "006699",
-        "image": "https://dummyimage.com/200x200/006699/fff&text=+"
+        "image": "https://dummyimage.com/200x200/006699/fff&text=+",
+        "isClicked": false
     },
     {
         "id": 6,
         "name": "0099cc",
-        "image": "https://dummyimage.com/200x200/0099cc/fff&text=+"
+        "image": "https://dummyimage.com/200x200/0099cc/fff&text=+",
+        "isClicked": false
     },
     {
         "id": 7,
         "name": "000099",
-        "image": "https://dummyimage.com/200x200/000099/fff&text=+"
+        "image": "https://dummyimage.com/200x200/000099/fff&text=+",
+        "isClicked": false
     },
     {
         "id": 8,
         "name": "33cccc",
-        "image": "https://dummyimage.com/200x200/33cccc/fff&text=+"
+        "image": "https://dummyimage.com/200x200/33cccc/fff&text=+",
+        "isClicked": false
     },
     {
         "id": 9,
         "name": "3399ff",
-        "image": "https://dummyimage.com/200x200/00ccff/fff&text=+"
+        "image": "https://dummyimage.com/200x200/00ccff/fff&text=+",
+        "isClicked": false
     },
     {
         "id": 10,
-        "name": "009999",
-        "image": "https://dummyimage.com/200x200/009999/fff&text=+"
+        "name": "57e095",
+        "image": "https://dummyimage.com/200x200/57e095/fff&text=+",
+        "isClicked": false
     },
     {
         "id": 11,
-        "name": "0000cc",
-        "image": "https://dummyimage.com/200x200/0000cc/fff&text=+"
+        "name": "781a70",
+        "image": "https://dummyimage.com/200x200/781a70/fff&text=+",
+        "isClicked": false
     },
     {
         "id": 12,
         "name": "3366cc",
-        "image": "https://dummyimage.com/200x200/3366cc/fff&text=+"
+        "image": "https://dummyimage.com/200x200/3366cc/fff&text=+",
+        "isClicked": false
     },
     {
         "id": 13,
         "name": "3333cc",
-        "image": "https://dummyimage.com/200x200/3333cc/fff&text=+"
+        "image": "https://dummyimage.com/200x200/3333cc/fff&text=+",
+        "isClicked": false
     },
     {
         "id": 14,
         "name": "66ccff",
-        "image": "https://dummyimage.com/200x200/66ccff/fff&text=+"
+        "image": "https://dummyimage.com/200x200/66ccff/fff&text=+",
+        "isClicked": false
     },
     {
         "id": 15,
-        "name": "336699",
-        "image": "https://dummyimage.com/200x200/336699/fff&text=+"
+        "name": "531a78",
+        "image": "https://dummyimage.com/200x200/531a78/fff&text=+",
+        "isClicked": false
     },
     {
         "id": 16,
         "name": "000066",
-        "image": "https://dummyimage.com/200x200/000066/fff&text=+"
+        "image": "https://dummyimage.com/200x200/000066/fff&text=+",
+        "isClicked": false
+    },
+    {
+        "id": 17,
+        "name": "230f73",
+        "image": "https://dummyimage.com/200x200/230f73/fff&text=+",
+        "isClicked": false
+    },
+    {
+        "id": 18,
+        "name": "ffc4fb",
+        "image": "https://dummyimage.com/200x200/ffc4fb/fff&text=+",
+        "isClicked": false
     }
 ]

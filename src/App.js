@@ -13,15 +13,29 @@ class App extends Component {
     wins: 0
   }
 
+  // FUNCTIONS CALLED ON PAGE LOAD
+  // shuffleDeck
   componentDidMount() {
     this.setState({ cards: this.shuffleDeck(this.state.cards) });
   }
 
-  shuffleDeck = data => {
+  // FUNCTIONS
+
+  shuffleDeck = cards => {
     let shuffledCards = cards.sort(function( a, b){return 0.5 - Math.random()});
     return shuffledCards;
+  };
+
+  resetDeck = cards => {
+    const resetCards = cards.map(card => ({ ...card, isClicked: false}));
+    return this.shuffleDeck(resetCards);
   }
 
+  handleClick = id => {
+
+  };
+
+  // OUTPUT
   render() {
     return (
           <>
@@ -32,6 +46,7 @@ class App extends Component {
                   image={card.image}
                   key={card.id}
                   id={card.id}
+                  onClick={this.handleClick}
                 />
               ))}
             </Wrapper>
