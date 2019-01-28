@@ -1,17 +1,13 @@
 .img-fluid,
 .img-container,
 img {
-  border: none;
   height: 213px;
   padding: 0;
-  width: 213px;
+  width: 213.3px;
 }
 
 .img-fluid {
-  background: #fff;
-  /* border-radius: 2px; */
-  /* box-shadow: 0 3px 6px #999, 0 3px 6px #999; */
-  overflow: hidden;
+  background: #ffffff;
 }
 
 .img-fluid:hover {

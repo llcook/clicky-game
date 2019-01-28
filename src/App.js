@@ -40,14 +40,21 @@ class App extends Component {
       score: newScore,
       topScore: newTopScore,
     })
+
+    console.log("new score: ", newScore);
+    console.log("new top score: ", newTopScore);
   }
 
   repeatClick = newData => {
     this.setState({
         cards: this.resetCards(newData),
         score: 0
-    })
+    });
+
+    console.log(`wrong guess! new score: ${this.state.score}`)
   }
+
+  // CLICK FUNCTION
 
   handleClick = id => {
     let correctGuess = false;
@@ -67,6 +74,7 @@ class App extends Component {
   };
 
   // OUTPUT
+
   render() {
     return (
           <>
