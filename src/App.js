@@ -7,7 +7,19 @@ import cards from "./cards.json";
 class App extends Component {
 
   state = {
-    cards
+    cards,
+    score: 0,
+    topScore: 0,
+    wins: 0
+  }
+
+  componentDidMount() {
+    this.setState({ cards: this.shuffleDeck(this.state.cards) });
+  }
+
+  shuffleDeck = data => {
+    let shuffledCards = cards.sort(function( a, b){return 0.5 - Math.random()});
+    return shuffledCards;
   }
 
   render() {
