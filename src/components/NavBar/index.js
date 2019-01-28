@@ -7,6 +7,7 @@ const NavBar = props => (
         <ul className="navbar-nav">
             <li>Score: {props.score}</li>
             <li>Top Score: {props.topScore}</li>
+            <li>Click a color only once</li>
         </ul>
     </nav>
 );

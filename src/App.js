@@ -40,9 +40,6 @@ class App extends Component {
       score: newScore,
       topScore: newTopScore,
     })
-
-    console.log("new score: ", newScore);
-    console.log("new top score: ", newTopScore);
   }
 
   repeatClick = newData => {
@@ -50,8 +47,6 @@ class App extends Component {
         cards: this.resetCards(newData),
         score: 0
     });
-
-    console.log(`wrong guess! new score: ${this.state.score}`)
   }
 
   // CLICK FUNCTION
@@ -63,7 +58,6 @@ class App extends Component {
         if (!card.isClicked) {
           card.isClicked = true;
           correctGuess = true;
-          console.log(`${id}: isClicked true`)
         }
       }
       return card;
