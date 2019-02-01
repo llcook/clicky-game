@@ -6,8 +6,7 @@ Check it out here on [Github Pages](https://llcook.github.io/clicky-game/).
 
 ### Technologies:
 * React
-* Bootstrap CDN
-* Github Pages
+* Bootstrap
 
 ___
 
