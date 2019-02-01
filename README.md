@@ -2,7 +2,7 @@
 
 This simple React game prompts the user to click an image block for a point. Repeat image clicks reset the score to zero.
 
-Check it out here on [Github Pages](https://llcook.github.io/clicky-game/).
+Check it out on [Github Pages](https://llcook.github.io/clicky-game/).
 
 ### Technologies:
 * React
